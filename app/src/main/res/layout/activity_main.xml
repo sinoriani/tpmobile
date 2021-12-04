@@ -29,6 +29,7 @@
             android:ems="10"
             android:hint="Saisir le nom.."
             android:inputType="textPersonName"
+            android:minHeight="48dp"
             android:textColor="#F4EEEE"
             android:textColorHighlight="@color/light_blue"
             android:textColorHint="#8F8989" />
@@ -41,6 +42,7 @@
             android:ems="10"
             android:hint="Saisir le mdp.."
             android:inputType="textPersonName"
+            android:minHeight="48dp"
             android:textColor="#F4EEEE"
             android:textColorHighlight="@color/light_blue"
             android:textColorHint="#9F9696" />
@@ -63,7 +65,8 @@
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:background="@color/light_blue"
-            android:text="Quitter" />
+            android:text="Quitter"
+            android:textColor="#4A148C" />
 
         <Button
             android:id="@+id/btn_valider_auth"
@@ -72,6 +75,7 @@
             android:layout_margin="3dp"
             android:layout_weight="1"
             android:background="@color/light_blue"
-            android:text="Valider" />
+            android:text="Valider"
+            android:textColor="#4A148C" />
     </LinearLayout>
 </LinearLayout>
